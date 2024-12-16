@@ -1,0 +1,26 @@
+# Ignorar pastas bin e obj
+/bin/
+/obj/
+
+# Ignorar arquivos de configuração específicos da IDE
+.vs/
+.vscode/
+
+# Ignorar arquivos de dependência do NuGet
+/packages/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de banco de dados locais
+*.sqlite
+*.db
+
+# Ignorar arquivos de configuração com credenciais (ajuste conforme necessário)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+secrets.json
+
+# Ignorar pastas de build e publicação
+wwwroot/
